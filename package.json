@@ -2,7 +2,16 @@
   "name": "stand-lua",
   "displayName": "Stand-Lua",
   "description": "",
-  "version": "0.0.1",
+  "icon": "images/logotypev2.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ExoticGamerrrYT/stand-lua-snippets-vscode-extension"
+  },
+  "author": {
+    "name": "Exotic Dev // AKA: ExoticGamerrrYT",
+    "url": "https://github.com/ExoticGamerrrYT"
+  },
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.74.0"
   },

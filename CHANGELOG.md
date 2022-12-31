@@ -1,7 +1,17 @@
 # Change Log
 
-## [Released]
+## Released
 
 - Initial release
-- Not all the GTAV Natives
+- Not all the GTA V Natives
 - Not all the Stand API commands
+
+## 0.0.1
+
+- All the GTA V namespaces (not their functions)
+- The most used commands of Stand API
+
+## 0.0.2
+
+- Better sintaxis
+- More Stand API commands
