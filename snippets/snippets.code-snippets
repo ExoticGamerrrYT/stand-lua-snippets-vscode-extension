@@ -1,14 +1,14 @@
 {
-    "util.": {
-		"prefix": "util.",
+    "util": {
+		"prefix": "util",
 		"body": [
-			"util.$0"
+			"util$0"
 		],
-		"description": "util.action"
+		"description": "util."
 	},
-	"menu.":{
-		"prefix": "menu.",
-		"body": "menu.$0",
+	"menu":{
+		"prefix": "menu",
+		"body": "menu$0",
 		"description": "menu.",
 	},
 	"action":{
@@ -32,273 +32,273 @@
 		"description": "my_root()"
 	},
 	"players":{
-		"prefix": "players.",
-		"body": "players.$0",
+		"prefix": "players",
+		"body": "players$0",
 		"description": "players."
 	},
 	"entities":{
-		"prefix": "entities.",
-		"body": "entities.$0",
+		"prefix": "entities",
+		"body": "entities$0",
 		"description": "entities."
 	},
 	"chat":{
-		"prefix": "chat.",
-		"body": "chat.$0",
+		"prefix": "chat",
+		"body": "chat$0",
 		"description": "chat."
 	},
 	"directx":{
-		"prefix": "directx.",
-		"body": "directx.$0",
+		"prefix": "directx",
+		"body": "directx$0",
 		"description": "directx."
 	},
 	"v3":{
-		"prefix": "v3.",
-		"body": "v3.$0",
+		"prefix": "v3",
+		"body": "v3$0",
 		"description": "v3."
 	},
 	"lang":{
-		"prefix": "lang.",
-		"body": "lang.$0",
+		"prefix": "lang",
+		"body": "lang$0",
 		"description": "lang."
 	},
 	"filesystem":{
-		"prefix": "filesystem.",
-		"body": "filesystem.$0",
+		"prefix": "filesystem",
+		"body": "filesystem$0",
 		"description": "filesystem."
 	},
 	"memory":{
-		"prefix": "memory.",
-		"body": "memory.$0",
+		"prefix": "memory",
+		"body": "memory$0",
 		"description": "memory."
 	},
 	"profiling":{
-		"prefix": "profiling.",
-		"body": "profiling.$0",
+		"prefix": "profiling",
+		"body": "profiling$0",
 		"description": "profiling."
 	},
 	"SYSTEM":{
-		"prefix": "SYSTEM.",
-		"body": "SYSTEM.$0",
+		"prefix": "SYSTEM",
+		"body": "SYSTEM$0",
 		"description": "GTAV SYSTEM."
 	},
 	"APP":{
-		"prefix": "APP.",
-		"body": "APP.$0",
+		"prefix": "APP",
+		"body": "APP$0",
 		"description": "GTAV APP."
 	},
 	"AUDIO":{
-		"prefix": "AUDIO.",
-		"body": "AUDIO.$0",
+		"prefix": "AUDIO",
+		"body": "AUDIO$0",
 		"description": "GTAV AUDIO."
 	},
 	"BRAIN":{
-		"prefix": "BRAIN.",
-		"body": "BRAIN.$0",
+		"prefix": "BRAIN",
+		"body": "BRAIN$0",
 		"description": "GTAV BRAIN."
 	},
 	"CAM":{
-		"prefix": "CAM.",
-		"body": "CAM.$0",
+		"prefix": "CAM",
+		"body": "CAM$0",
 		"description": "GTAV CAM."
 	},
 	"CLOCK":{
-		"prefix": "CLOCK.",
-		"body": "CLOCK.$0",
+		"prefix": "CLOCK",
+		"body": "CLOCK$0",
 		"description": "GTAV CLOCK."
 	},
 	"CUTSCENE":{
-		"prefix": "CUTSCENE.",
-		"body": "CUTSCENE.$0",
+		"prefix": "CUTSCENE",
+		"body": "CUTSCENE$0",
 		"description": "GTAV CUTSCENE."
 	},
 	"DATAFILE":{
-		"prefix": "DATAFILE.",
-		"body": "DATAFILE.$0",
+		"prefix": "DATAFILE",
+		"body": "DATAFILE$0",
 		"description": "GTAV DATAFILE."
 	},
 	"DECORATOR":{
-		"prefix": "DECORATOR.",
-		"body": "DECORATOR.$0",
+		"prefix": "DECORATOR",
+		"body": "DECORATOR$0",
 		"description": "GTAV DECORATOR."
 	},
 	"DLC":{
-		"prefix": "DLC.",
-		"body": "DLC.$0",
+		"prefix": "DLC",
+		"body": "DLC$0",
 		"description": "GTAV DLC."
 	},
 	"ENTITY":{
-		"prefix": "ENTITY.",
-		"body": "ENTITY.$0",
+		"prefix": "ENTITY",
+		"body": "ENTITY$0",
 		"description": "GTAV ENTITY."
 	},
 	"EVENT":{
-		"prefix": "EVENT.",
-		"body": "EVENT.$0",
+		"prefix": "EVENT",
+		"body": "EVENT$0",
 		"description": "GTAV EVENT."
 	},
 	"FILES":{
-		"prefix": "FILES.",
-		"body": "FILES.$0",
+		"prefix": "FILES",
+		"body": "FILES$0",
 		"description": "GTAV FILES."
 	},
 	"FIRE":{
-		"prefix": "FIRE.",
-		"body": "FIRE.$0",
+		"prefix": "FIRE",
+		"body": "FIRE$0",
 		"description": "GTAV FIRE."
 	},
 	"GRAPHICS":{
-		"prefix": "GRAPHICS.",
-		"body": "GRAPHICS.$0",
+		"prefix": "GRAPHICS",
+		"body": "GRAPHICS$0",
 		"description": "GTAV GRAPHICS."
 	},
 	"HUD":{
-		"prefix": "HUD.",
-		"body": "HUD.$0",
+		"prefix": "HUD",
+		"body": "HUD$0",
 		"description": "GTAV HUD."
 	},
 	"INTERIOR":{
-		"prefix": "INTERIOR.",
-		"body": "INTERIOR.$0",
+		"prefix": "INTERIOR",
+		"body": "INTERIOR$0",
 		"description": "GTAV INTERIOR."
 	},
 	"ITEMSET":{
-		"prefix": "ITEMSET.",
-		"body": "ITEMSET.$0",
+		"prefix": "ITEMSET",
+		"body": "ITEMSET$0",
 		"description": "GTAV ITEMSET."
 	},
 	"LOADINGSCREEN":{
-		"prefix": "LOADINGSCREEN.",
-		"body": "LOADINGSCREEN.$0",
+		"prefix": "LOADINGSCREEN",
+		"body": "LOADINGSCREEN$0",
 		"description": "GTAV LOADINGSCREEN."
 	},
 	"LOCALIZATION":{
-		"prefix": "LOCALIZATION.",
-		"body": "LOCALIZATION.$0",
+		"prefix": "LOCALIZATION",
+		"body": "LOCALIZATION$0",
 		"description": "GTAV LOCALIZATION."
 	},
 	"MISC":{
-		"prefix": "MISC.",
-		"body": "MISC.$0",
+		"prefix": "MISC",
+		"body": "MISC$0",
 		"description": "GTAV MISC."
 	},
 	"MOBILE":{
-		"prefix": "MOBILE.",
-		"body": "MOBILE.$0",
+		"prefix": "MOBILE",
+		"body": "MOBILE$0",
 		"description": "GTAV MOBILE."
 	},
 	"MONEY":{
-		"prefix": "MONEY.",
-		"body": "MONEY.$0",
+		"prefix": "MONEY",
+		"body": "MONEY$0",
 		"description": "GTAV MONEY."
 	},
 	"NETSHOPPING":{
-		"prefix": "NETSHOPPING.",
-		"body": "NETSHOPPING.$0",
+		"prefix": "NETSHOPPING",
+		"body": "NETSHOPPING$0",
 		"description": "GTAV NETSHOPPING."
 	},
 	"NETWORK":{
-		"prefix": "NETWORK.",
-		"body": "NETWORK.$0",
+		"prefix": "NETWORK",
+		"body": "NETWORK$0",
 		"description": "GTAV NETWORK."
 	},
 	"OBJECT":{
-		"prefix": "OBJECT.",
-		"body": "OBJECT.$0",
+		"prefix": "OBJECT",
+		"body": "OBJECT$0",
 		"description": "GTAV OBJECT."
 	},
 	"PAD":{
-		"prefix": "PAD.",
-		"body": "PAD.$0",
+		"prefix": "PAD",
+		"body": "PAD$0",
 		"description": "GTAV PAD."
 	},
 	"PATHFIND":{
-		"prefix": "PATHFIND.",
-		"body": "PATHFIND.$0",
+		"prefix": "PATHFIND",
+		"body": "PATHFIND$0",
 		"description": "GTAV PATHFIND."
 	},
 	"PED":{
-		"prefix": "PED.",
-		"body": "PED.$0",
+		"prefix": "PED",
+		"body": "PED$0",
 		"description": "GTAV PED."
 	},
 	"PHYSICS":{
-		"prefix": "PHYSICS.",
-		"body": "PHYSICS.$0",
+		"prefix": "PHYSICS",
+		"body": "PHYSICS$0",
 		"description": "GTAV PHYSICS."
 	},
 	"PLAYER":{
-		"prefix": "PLAYER.",
-		"body": "PLAYER.$0",
+		"prefix": "PLAYER",
+		"body": "PLAYER$0",
 		"description": "GTAV PLAYER."
 	},
 	"RECORDING":{
-		"prefix": "RECORDING.",
-		"body": "RECORDING.$0",
+		"prefix": "RECORDING",
+		"body": "RECORDING$0",
 		"description": "GTAV RECORDING."
 	},
 	"REPLAY":{
-		"prefix": "REPLAY.",
-		"body": "REPLAY.$0",
+		"prefix": "REPLAY",
+		"body": "REPLAY$0",
 		"description": "GTAV REPLAY."
 	},
 	"SAVEMIGRATION":{
-		"prefix": "SAVEMIGRATION.",
-		"body": "SAVEMIGRATION.$0",
+		"prefix": "SAVEMIGRATION",
+		"body": "SAVEMIGRATION$0",
 		"description": "GTAV SAVEMIGRATION"
 	},
 	"SCRIPT":{
-		"prefix": "SCRIPT.",
-		"body": "SCRIPT.$0",
+		"prefix": "SCRIPT",
+		"body": "SCRIPT$0",
 		"description": "GTAV SCRIPT."
 	},
 	"SECURITY":{
-		"prefix": "SECURITY.",
-		"body": "SECURITY.$0",
+		"prefix": "SECURITY",
+		"body": "SECURITY$0",
 		"description": "GTAV SECURITY."
 	},
 	"SHAPETEST":{
-		"prefix": "SHAPETEST.",
-		"body": "SHAPETEST.$0",
+		"prefix": "SHAPETEST",
+		"body": "SHAPETEST$0",
 		"description": "GTAV SHAPETEST."
 	},
 	"SOCIALCLUB":{
-		"prefix": "SOCIALCLUB.",
-		"body": "SOCIALCLUB.$0",
+		"prefix": "SOCIALCLUB",
+		"body": "SOCIALCLUB$0",
 		"description": "GTAV SOCIALCLUB."
 	},
 	"STATS":{
-		"prefix": "STATS.",
-		"body": "STATS.$0",
+		"prefix": "STATS",
+		"body": "STATS$0",
 		"description": "GTAV STATS."
 	},
 	"STREAMING":{
-		"prefix": "STREAMING.",
-		"body": "STREAMING.$0",
+		"prefix": "STREAMING",
+		"body": "STREAMING$0",
 		"description": "GTAV STREAMING."
 	},
 	"TASK":{
-		"prefix": "TASK.",
-		"body": "TASK.$0",
+		"prefix": "TASK",
+		"body": "TASK$0",
 		"description": "GTAV TASK."
 	},
 	"VEHICLE":{
-		"prefix": "VEHICLE.",
-		"body": "VEHICLE.$0",
+		"prefix": "VEHICLE",
+		"body": "VEHICLE$0",
 		"description": "GTAV VEHICLE."
 	},
 	"WATER":{
-		"prefix": "WATER.",
-		"body": "WATER.$0",
+		"prefix": "WATER",
+		"body": "WATER$0",
 		"description": "GTAV WATER."
 	},
 	"WEAPON":{
-		"prefix": "WEAPON.",
-		"body": "WEAPON.$0",
+		"prefix": "WEAPON",
+		"body": "WEAPON$0",
 		"description": "GTAV WEAPON."
 	},
 	"ZONE":{
-		"prefix": "ZONE.",
-		"body": "ZONE.$0",
+		"prefix": "ZONE",
+		"body": "ZONE$0",
 		"description": "GTAV ZONE."
 	}
 }
