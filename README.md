@@ -68,9 +68,6 @@ I recommend adding this to the **WORKSPACE SETTINGS** _(Command Palette > settin
     "WEAPON",
     "ZONE"
 ],
-```
-
-```
 "Lua.runtime.nonstandardSymbol": [
     "+=",
     "-=",
@@ -80,10 +77,9 @@ I recommend adding this to the **WORKSPACE SETTINGS** _(Command Palette > settin
 ],
 ```
 
-## Versions
-### 1.0.0
-Lots of snippets, but not all.
-
+## How to install
+1. Copy this folder to `C:\Users\[user]\.vscode\extensions`.
+2. Relaunch VSCode (if it tells you to reload again do it)
 ## Shortcut
 Here is a useful editor keyboard shortcut:
 
