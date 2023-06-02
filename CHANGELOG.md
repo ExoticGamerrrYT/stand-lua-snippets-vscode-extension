@@ -8,10 +8,14 @@
 
 ## 0.0.1
 
-- All the GTA V namespaces (not their functions)
+- All the GTA V namespaces (not their natives)
 - The most used commands of Stand API
 
 ## 0.0.2
 
 - Better sintaxis
 - More Stand API commands
+
+## 0.0.3
+
+- Natives of the SYSTEM namespace

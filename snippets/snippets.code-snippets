@@ -1,4 +1,5 @@
 {
+	// -> STAND API
     "util": {
 		"prefix": "util",
 		"body": [
@@ -76,6 +77,8 @@
 		"body": "profiling$0",
 		"description": "profiling."
 	},
+
+	// -> NAMESPACES
 	"SYSTEM":{
 		"prefix": "SYSTEM",
 		"body": "SYSTEM$0",
@@ -300,5 +303,137 @@
 		"prefix": "ZONE",
 		"body": "ZONE$0",
 		"description": "GTAV ZONE."
+	},
+
+	// -> NATIVES
+	"WAIT": {
+		"prefix": "WAIT()",
+		"body": "WAIT(${1:int ms})",
+		"description": "SYSTEM::WAIT - It's a void."
+	},
+	"START_NEW_SCRIPT": {
+		"prefix": "START_NEW_SCRIPT()",
+		"body": "START_NEW_SCRIPT(${1:const char* scriptName}, ${2:int stackSize})",
+		"description": "SYSTEM::START_NEW_SCRIPT - It's an int."
+	},
+	"START_NEW_SCRIPT_WITH_ARGS": {
+		"prefix": "START_NEW_SCRIPT_WITH_ARGS()",
+		"body": "START_NEW_SCRIPT_WITH_ARGS(${1:const char* scriptName}, ${2: Any* args}, ${3:int argCount}, ${4:int stackSize})",
+		"description": "SYSTEM::START_NEW_SCRIPT_WITH_ARGS - It's an int."
+	},
+	"START_NEW_SCRIPT_WITH_NAME_HASH": {
+		"prefix": "START_NEW_SCRIPT_WITH_NAME_HASH()",
+		"body": "START_NEW_SCRIPT_WITH_NAME_HASH(${1:Hash scriptHash}, ${2:int stackSize})",
+		"description": "SYSTEM::START_NEW_SCRIPT_WITH_NAME_HASH - It's an int."
+	},
+	"START_NEW_SCRIPT_WITH_NAME_HASH_AND_ARGS": {
+		"prefix": "START_NEW_SCRIPT_WITH_NAME_HASH_AND_ARGS()",
+		"body": "START_NEW_SCRIPT_WITH_NAME_HASH_AND_ARGS(${1:Hash scriptHash}, ${2:Any* args}, ${3:int argCount}, ${4:int stackSize})",
+		"description": "SYSTEM::TIMERA - It's an int."
+	},
+	"TIMERA": {
+		"prefix": "TIMERA()",
+		"body": "TIMERA()",
+		"description": "SYSTEM::TIMERA - Counts up. Every 1000 is 1 real-time second."
+	},
+	"TIMERB": {
+		"prefix": "TIMERB()",
+		"body": "TIMERB()",
+		"description": "SYSTEM::TIMERB - Same as TIMERA()."
+	},
+	"SETTIMERA": {
+		"prefix": "SETTIMERA()",
+		"body": "SETTIMERA(${1:int value})",
+		"description": "SYSTEM::SETTIMERA - It's a void."
+	},
+	"SETTIMERB": {
+		"prefix": "SETTIMERB()",
+		"body": "SETTIMERB(${1:int value})",
+		"description": "SYSTEM::SETTIMERB - It's a void."
+	},
+	"TIMESTEP": {
+		"prefix": "TIMESTEP()",
+		"body": "TIMESTEP()",
+		"description": "SYSTEM::TIMESTEP - Gets the current frame time. It's a float."
+	},
+	"SIN": {
+		"prefix": "SIN()",
+		"body": "SIN(${1:float value})",
+		"description": "SYSTEM::SIN - It's a float."
+	},
+	"COS": {
+		"prefix": "COS()",
+		"body": "COS(${1: float value})",
+		"description": "SYSTEM::COS - It's a float."
+	},
+	"SQRT": {
+		"prefix": "SQRT()",
+		"body": "SQRT(${1:float value})",
+		"description": "SYSTEM::SQRT - It's a float."
+	},
+	"POW": {
+		"prefix": "POW()",
+		"body": "POW(${1:float base}, ${2:float exponent})",
+		"description": "SYSTEM::POW - It's a float."
+	},
+	"LOG10": {
+		"prefix": "LOG10()",
+		"body": "LOG10(${1:float value})",
+		"description": "SYSTEM::LOG10 - It's a float."
+	},
+	"VMAG": {
+		"prefix": "VMAG()",
+		"body": "VMAG(${1:float x}, ${2:float y}, ${3:float z})",
+		"description": "SYSTEM::VMAG - Calculates the magnitude of a vector. It's a float."
+	},
+	"VMAG2": {
+		"prefix": "VMAG2()",
+		"body": "VMAG2(${1:float x}, ${2:float y}, ${3:float z})",
+		"description": "SYSTEM::VMAG2 - Calculates the magnitude of a vector but does not perform Sqrt operations (Its way faster). It's a float."
+	},
+	"VDIST": {
+		"prefix": "VDIST()",
+		"body": "VDIST(${1:float x1}, ${2:float y1}, ${3:float z1}, ${4:float x2}, ${5:float y2}, ${6:float z2})",
+		"description": "SYSTEM::VDIST - Calculates distance between vectors. It's a float."
+	},
+	"VDIST2": {
+		"prefix": "VDIST2()",
+		"body": "VDIST2(${1:float x1}, ${2:float y1}, ${3:float z1}, ${4:float x2}, ${5:float y2}, ${6:float z2})",
+		"description": "SYSTEM::VDIST2 - Calculates distance between vectors but does not perform Sqrt operations (Its way faster). It's a float."
+	},
+	"SHIFT_LEFT": {
+		"prefix": "SHIFT_LEFT()",
+		"body": "SHIFT_LEFT(${1:int value}, ${2:int bitShift})",
+		"description": "SYSTEM::SHIFT_LEFT - It's an int."
+	},
+	"SHIFT_RIGHT": {
+		"prefix": "SHIFT_RIGHT()",
+		"body": "SHIFT_RIGHT(${1:int value}, ${2:int bitShift})",
+		"description": "SYSTEM::SHIFT_RIGHT - It's an int."
+	},
+	"FLOOR": {
+		"prefix": "FLOOR()",
+		"body": "FLOOR(${1:float value})",
+		"description": "SYSTEM::FLOOR - It's an int."
+	},
+	"CEIL": {
+		"prefix": "CEIL()",
+		"body": "CEIL(${1:float value})",
+		"description": "SYSTEM::CEIL - I'm guessing this rounds a float value down to the next whole number. It's an int."
+	},
+	"ROUND": {
+		"prefix": "ROUND()",
+		"body": "ROUND(${1:float value})",
+		"description": "SYSTEM::ROUND - This rounds a float value up to the next whole number. It's an int."
+	},
+	"TO_FLOAT": {
+		"prefix": "TO_FLOAT()",
+		"body": "TO_FLOAT(${1:int value})",
+		"description": "SYSTEM::TO_FLOAT - It's a float."
+	},
+	"SET_THIS_THREAD_PRIORITY": {
+		"prefix": "SET_THIS_THREAD_PRIORITY()",
+		"body": "SET_THIS_THREAD_PRIORITY(${1:int priority})",
+		"description": "SYSTEM::SET_THIS_THREAD_PRIORITY - It's a void."
 	}
 }
