@@ -19,3 +19,7 @@
 ## 0.0.3
 
 - Natives of the SYSTEM namespace
+
+## 0.0.4
+
+- Made a .vsix file so you only need to drag and drop into extensions panel.

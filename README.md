@@ -4,9 +4,9 @@
 This extension add the snippets to make lua scripts for Stand.
 
 ## Settings
-[Use Sumneko Lua extension](https://marketplace.visualstudio.com/items?itemName=sumneko.lua)
+[Use Sumneko Lua extension](https://marketplace.visualstudio.com/items?itemName=sumneko.lua).
 
-I recommend adding this to the **WORKSPACE SETTINGS** _(Command Palette > settings.json)_
+I recommend adding this to the **WORKSPACE SETTINGS** _(Command Palette > settings.json)_.
 
 ```
 "Lua.diagnostics.globals": [
@@ -78,8 +78,8 @@ I recommend adding this to the **WORKSPACE SETTINGS** _(Command Palette > settin
 ```
 
 ## How to install
-1. Copy this folder to `C:\Users\[user]\.vscode\extensions`.
-2. Relaunch VSCode (if it tells you to reload again do it)
+1. Go to [release folder](https://github.com/ExoticGamerrrYT/stand-lua-snippets-vscode-extension/tree/master/release).
+2. Download the `.vsix` file and then drag and drop to the extensions panel in Visual Studio Code.
 ## Shortcut
 Here is a useful editor keyboard shortcut:
 
