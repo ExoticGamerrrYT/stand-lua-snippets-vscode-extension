@@ -23,3 +23,7 @@
 ## 0.0.4
 
 - Made a .vsix file so you only need to drag and drop into extensions panel.
+
+## 0.0.5
+
+- Natives of the APP namespace

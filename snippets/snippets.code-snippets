@@ -435,5 +435,115 @@
 		"prefix": "SET_THIS_THREAD_PRIORITY()",
 		"body": "SET_THIS_THREAD_PRIORITY(${1:int priority})",
 		"description": "SYSTEM::SET_THIS_THREAD_PRIORITY - It's a void."
+	},
+	// -> APP
+	"APP_DATA_VALID": {
+		"prefix": "APP_DATA_VALID()",
+		"body": "APP_DATA_VALID()",
+		"description": "APP::APP_DATA_VALID - It's a bool."
+	},
+	"APP_GET_INT": {
+		"prefix": "APP_GET_INT()",
+		"body": "APP_GET_INT(${1:const char* property})",
+		"description": "APP::APP_GET_INT - It's an int."
+	},
+	"APP_GET_FLOAT": {
+		"prefix": "APP_GET_FLOAT()",
+		"body": "APP_GET_FLOAT(${const char* property})",
+		"description": "APP::APP_GET_FLOAT - It's a float."
+	},
+	"APP_GET_STRING": {
+		"prefix": "APP_GET_STRING()",
+		"body": "APP_GET_STRING(${const char* property})",
+		"description": "APP::APP_GET_STRING - It's a const char*."
+	},
+	"APP_SET_INT": {
+		"prefix": "APP_SET_INT()",
+		"body": "APP_SET_INT(${1:(const char* property}, ${2:int value})",
+		"description": "APP::APP_SET_INT - It's a void."
+	},
+	"APP_SET_FLOAT": {
+		"prefix": "APP_SET_FLOAT",
+		"body": [
+			"APP_SET_FLOAT(${1:const char* property}, ${2:float value});"
+		],
+		"description": "APP::APP_SET_FLOAT - It's a void."
+	},
+	"APP_SET_STRING": {
+		"prefix": "APP_SET_STRING",
+		"body": [
+			"APP_SET_STRING(${1:const char* property}, ${2:const char* value});"
+		],
+		"description": "APP::APP_SET_STRING - It's a void"
+	},	
+	"APP_SET_APP": {
+		"prefix": "APP_SET_APP",
+		"body": [
+			"APP_SET_APP(${1:const char* appName});"
+		],
+		"description": "APP::APP_SET_APP - Called in the gamescripts like:\nAPP::APP_SET_APP(\"car\");\nAPP::APP_SET_APP(\"dog\"); it's a void."
+	},
+	"APP_SET_BLOCK": {
+		"prefix": "APP_SET_BLOCK",
+		"body": [
+			"APP_SET_BLOCK(${1:const char* blockName});"
+		],
+		"description": "APP::APP_SET_BLOCK - It's a void."
+	},
+	"APP_CLEAR_BLOCK": {
+		"prefix": "APP_CLEAR_BLOCK",
+		"body": [
+			"APP_CLEAR_BLOCK();"
+		],
+		"description": "APP::APP_CLEAR_BLOCK - It's a void."
+	},
+	"APP_CLOSE_APP": {
+		"prefix": "APP_CLOSE_APP",
+		"body": [
+			"APP_CLOSE_APP();"
+		],
+		"description": "APP::APP_CLOSE_APP - It's a void."
+	},
+	"APP_CLOSE_BLOCK": {
+		"prefix": "APP_CLOSE_BLOCK",
+		"body": [
+			"APP_CLOSE_BLOCK();"
+		],
+		"description": "APP::APP_CLOSE_BLOCK - It's a void."
+	},
+	"APP_HAS_LINKED_SOCIAL_CLUB_ACCOUNT": {
+		"prefix": "APP_HAS_LINKED_SOCIAL_CLUB_ACCOUNT",
+		"body": [
+			"APP_HAS_LINKED_SOCIAL_CLUB_ACCOUNT();"
+		],
+		"description": "APP::APP_HAS_LINKED_SOCIAL_CLUB_ACCOUNT - It's a BOOL."
+	},
+	"APP_HAS_SYNCED_DATA": {
+		"prefix": "APP_HAS_SYNCED_DATA",
+		"body": [
+			"APP_HAS_SYNCED_DATA(${1:const char* appName});"
+		],
+		"description": "APP::APP_HAS_SYNCED_DATA - It's a BOOL"
+	},
+	"APP_SAVE_DATA": {
+		"prefix": "APP_SAVE_DATA",
+		"body": [
+			"APP_SAVE_DATA();"
+		],
+		"description": "APP::APP_SAVE_DATA - It's a void"
+	},
+	"APP_GET_DELETED_FILE_STATUS": {
+		"prefix": "APP_GET_DELETED_FILE_STATUS",
+		"body": [
+			"APP_GET_DELETED_FILE_STATUS();"
+		],
+		"description": "APP::APP_GET_DELETED_FILE_STATUS - It's an int"
+	},
+	"APP_DELETE_APP_DATA": {
+		"prefix": "APP_DELETE_APP_DATA",
+		"body": [
+			"APP_DELETE_APP_DATA(${1:const char* appName});"
+		],
+		"description": "APP::APP_DELETE_APP_DATA - It's a BOOL"
 	}
 }
