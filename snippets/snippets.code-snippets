@@ -77,7 +77,7 @@
 		"body": "profiling$0",
 		"description": "profiling."
 	},
-
+/*
 	// -> NAMESPACES
 	"SYSTEM":{
 		"prefix": "SYSTEM",
@@ -546,4 +546,6 @@
 		],
 		"description": "APP::APP_DELETE_APP_DATA - It's a BOOL"
 	}
+}
+*/
 }
